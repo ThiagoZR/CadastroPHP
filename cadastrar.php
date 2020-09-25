@@ -39,20 +39,20 @@
               <div class="row">
                 <div class="col">
                   
-                  <form>
+                  <form action="valida_cadastro.php" method="post">
                     <div class="form-group">
                       <label>Nome:</label>
-                      <input type="text" class="form-control" placeholder="Nome">
+                      <input type="text" name="nome" class="form-control" placeholder="Nome">
                     </div>
                     
                     <div class="form-group">
                       <label>E-mail</label>
-                      <input type="text" class="form-control" placeholder="E-mail">
+                      <input type="text" name="email" class="form-control" placeholder="E-mail">
                     </div>
                     
                     <div class="form-group">
                       <label>Senha</label>
-                      <input type="text" class="form-control" placeholder="Senha">
+                      <input type="password" name="senha" class="form-control" placeholder="Senha">
                     </div>
 
                     <div class="row mt-5">
